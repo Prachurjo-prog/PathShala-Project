@@ -4,7 +4,7 @@ import logo from "@/assets/logo-rem.png";
 
 const NavBar = () => {
   return (
-    <div className="navbar  shadow-sm">
+    <div className="navbar bg-[#F9FAFA] shadow-sm fixed top-0 z-50">
       <div className=" container mx-auto flex items-center justify-between">
         <div className="navbar-start">
           <div className="dropdown">

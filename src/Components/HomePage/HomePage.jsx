@@ -1,4 +1,5 @@
 import Hero from "../Hero/Hero";
+import PopularityPage from "../Hero/Popularity";
 import ScrollingPage from "../Hero/ScrollingPage";
 import Footer from "../Shared/Footer";
 import NavBar from "../Shared/NavBar";
@@ -10,7 +11,8 @@ const HomePage = () => {
             <NavBar/>
             <Hero/>
             <ScrollingPage/>
-            {/* <Footer/> */}
+            <PopularityPage/>
+            <Footer/>
         </div>
     );
 };
