@@ -1,16 +1,15 @@
 
-import Hero from "@/Components/Hero/Hero";
-import Footer from "@/Components/Shared/Footer";
-import NavBar from "@/Components/Shared/NavBar";
+
+import HomePage from "@/Components/HomePage/HomePage";
+
 
 
 
 export default function Home() {
   return (
-    <div>
-     <NavBar/>
-     <Hero/>
-     {/* <Footer/> */}
+    <div className="bg-[#FCF5EF] min-h-screen">
+     <HomePage/>
+     
     </div>
   );
 }

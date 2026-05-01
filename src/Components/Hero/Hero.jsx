@@ -20,13 +20,13 @@ const Hero = () => {
         </p>
         <div className="flex items-center gap-5">
           <Link href={"/all-books"}>
-            <button className="btn bg-black rounded-xl text-white px-5 flex items-center gap-2">
+            <button className="btn bg-black rounded-xl text-white px-5 flex items-center gap-2 hover:transform hover:scale-105 transition-transform duration-300 shadow-sm">
               Browse Now <FaArrowRight />
             </button>
           </Link>
 
           <Link href={"/login"}>
-            <button className="btn hover:bg-[#E0843E] rounded-xl px-5 shadow-sm">
+            <button className="btn hover:bg-[#E0843E] rounded-xl px-5 shadow-sm hover:transform hover:scale-105 transition-transform duration-300">
               Get Started
             </button>
           </Link>
