@@ -10,9 +10,9 @@ export default function Footer() {
   return (
     <footer className=" bg-[#F9FAFA] mt-11">
       <hr className="text-gray-200"/>
-      <div className="mx-auto grid container gap-8  py-12 sm:px-6 md:grid-cols-3">
+      <div className="mx-auto grid container gap-8  py-12 md:grid-cols-3">
         
-        {/* Logo */}
+       
         <div>
           <Link href="/" className="flex items-center gap-2">
             <Image src={logo} alt="logo" className="w-45 h-9 "/>
@@ -22,7 +22,7 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* Contact */}
+       
         <div>
           <h4 className=" font-medium">Contact Us</h4>
           <ul className="mt-3 space-y-2 ">
@@ -34,7 +34,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Social */}
+        
         <div>
           <h4 className=" font-medium">Follow</h4>
           <div className="mt-3 flex gap-3">
@@ -51,9 +51,9 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Bottom */}
+     
       <hr className="text-gray-200"/>
-      <div className=" py-4 text-center  ">
+      <div className=" py-4 text-center">
         © {new Date().getFullYear()} PathShala Library. All rights reserved.
       </div>
     </footer>
