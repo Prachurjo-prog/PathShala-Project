@@ -6,10 +6,10 @@ const StoryBooks = async () => {
   const data = await res.json();
   console.log(data);
   return (
-    <div className="container mx-auto md:py-15 py-5">
-      <h2 className="text-4xl font-bold">All Books</h2>
+    <div className="container mx-auto md:py-12 py-5 ">
+      
 
-      <div className="grid md:grid-cols-4 gap-5 mt-5">
+      <div className="grid md:grid-cols-4 sm:grid-cols-2 gap-5 ">
         {data.map((b) => (
           <div
             key={b.id}
