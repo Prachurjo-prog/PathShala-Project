@@ -1,24 +1,32 @@
+'use client'
+
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { IoLogoGoogle } from "react-icons/io";
 
-
 const page = () => {
+  const handleLogin = (e) =>{
+    e.preventDefault()
+    const email = e.target.email.value
+    const password = e.target.password.value
+    console.log(email, password)
+
+  }
+
   return (
-    <div className="min-h-[80vh] flex items-center justify-center mt-15">
+    <div className="min-h-[80vh] flex items-center bg-[#F9FAFA] justify-center mt-15">
       <div className="w-full max-w-md p-8 bg-white rounded-lg shadow">
-        <h2 className="text-3xl font-bold text-gray-800 mb-2">
-          Welcome Back
-        </h2>
+        <h2 className="text-3xl font-bold text-gray-800 mb-2">Welcome Back</h2>
         <p className="text-gray-500 mb-6">
           Login to continue your reading journey
         </p>
 
-        <div className="space-y-4">
+        <form onSubmit={handleLogin} className="space-y-4">
           <div>
             <h3 className=" font-bold">Email</h3>
             <input
+            name="email"
               type="email"
               placeholder="Email"
               className="w-full shadow border border-gray-100 rounded-xl px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-200"
@@ -27,6 +35,7 @@ const page = () => {
           <div>
             <h3 className=" font-bold">Password</h3>
             <input
+            name="password"
               type="password"
               placeholder="password"
               className="w-full shadow border border-gray-100 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-200"
@@ -46,14 +55,17 @@ const page = () => {
           </div>
 
           <button className="btn w-full hover:bg-[#E0843E] rounded-xl">
-            <IoLogoGoogle className="text-xl"/>
+            <IoLogoGoogle className="text-xl" />
             Continue with Google
           </button>
 
-          <span className="text-center gap-2 justify-center flex">New here? <Link href="/register" className="font-bold hover:underline">
-            Create an account
-          </Link></span>
-        </div>
+          <span className="text-center gap-2 justify-center flex">
+            New here?{" "}
+            <Link href="/register" className="font-bold hover:underline">
+              Create an account
+            </Link>
+          </span>
+        </form>
       </div>
     </div>
   );

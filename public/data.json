@@ -1,146 +1,146 @@
 [
-{
-"id": 101,
-"title": "The Whispering Woods",
-"author": "Elena Vance",
-"description": "An enchanting collection of folklore about a forest that remembers every secret ever told.",
-"category": "Story",
-"available_quantity": 12,
-"image_url": "https://images.example.com/whispering-woods.jpg"
-},
-{
-"id": 102,
-"title": "Quantum Mechanics for Beginners",
-"author": "Dr. Aris Thorne",
-"description": "A comprehensive guide breaking down complex subatomic theories into understandable concepts.",
-"category": "Science",
-"available_quantity": 8,
-"image_url": "https://images.example.com/quantum-mechanics.jpg"
-},
-{
-"id": 103,
-"title": "Mastering React 19",
-"author": "Sarah Jenkins",
-"description": "The ultimate resource for building modern web applications with the latest React features.",
-"category": "Tech",
-"available_quantity": 25,
-"image_url": "https://images.example.com/mastering-react.jpg"
-},
-{
-"id": 104,
-"title": "The Midnight Train",
-"author": "Julian Black",
-"description": "A mystery thriller set on a locomotive traveling through the Swiss Alps in winter.",
-"category": "Story",
-"available_quantity": 15,
-"image_url": "https://images.example.com/midnight-train.jpg"
-},
-{
-"id": 105,
-"title": "Evolutionary Biology",
-"author": "Dr. Linda Gray",
-"description": "Exploring the genetic markers that shaped life on Earth over billions of years.",
-"category": "Science",
-"available_quantity": 5,
-"image_url": "https://images.example.com/evolutionary-biology.jpg"
-},
-{
-"id": 106,
-"title": "Cybersecurity Essentials",
-"author": "Marcus Reed",
-"description": "Protecting digital assets in an increasingly connected and vulnerable global landscape.",
-"category": "Tech",
-"available_quantity": 30,
-"image_url": "https://images.example.com/cybersecurity-essentials.jpg"
-},
-{
-"id": 107,
-"title": "Tales of the Silk Road",
-"author": "Amina Khatri",
-"description": "Historical fiction following a merchant's journey from China to the Mediterranean.",
-"category": "Story",
-"available_quantity": 10,
-"image_url": "https://images.example.com/silk-road.jpg"
-},
-{
-"id": 108,
-"title": "The Mars Mission",
-"author": "Neil Armstrong Jr.",
-"description": "A detailed scientific roadmap for establishing the first human colony on the Red Planet.",
-"category": "Science",
-"available_quantity": 18,
-"image_url": "https://images.example.com/mars-mission.jpg"
-},
-{
-"id": 109,
-"title": "Blockchain Revolution",
-"author": "Satoshi Nakamoto II",
-"description": "How decentralized ledgers are changing finance, logistics, and digital identity.",
-"category": "Tech",
-"available_quantity": 22,
-"image_url": "https://images.example.com/blockchain-revolution.jpg"
-},
-{
-"id": 110,
-"title": "Ghosts of the Empire",
-"author": "Robert Hughes",
-"description": "A haunting story about the fall of a mighty civilization and the survivors left behind.",
-"category": "Story",
-"available_quantity": 7,
-"image_url": "https://images.example.com/ghosts-empire.jpg"
-},
-{
-"id": 111,
-"title": "Neural Networks Explained",
-"author": "Fei-Fei Li",
-"description": "Deep dive into the architecture of artificial brains and machine learning algorithms.",
-"category": "Tech",
-"available_quantity": 14,
-"image_url": "https://images.example.com/neural-networks.jpg"
-},
-{
-"id": 112,
-"title": "Climate Change Data",
-"author": "Greta Thunberg",
-"description": "An analysis of global temperature shifts and the science behind renewable energy.",
-"category": "Science",
-"available_quantity": 40,
-"image_url": "https://images.example.com/climate-change.jpg"
-},
-{
-"id": 113,
-"title": "The Alchemist's Daughter",
-"author": "Clara Rossi",
-"description": "A young woman discovers her father's secret laboratory and a magical ancient legacy.",
-"category": "Story",
-"available_quantity": 9,
-"image_url": "https://images.example.com/alchemist-daughter.jpg"
-},
-{
-"id": 114,
-"title": "Genetics and Ethics",
-"author": "Professor Xavier",
-"description": "Discussing the scientific breakthroughs in CRISPR and the moral dilemmas of gene editing.",
-"category": "Science",
-"available_quantity": 11,
-"image_url": "https://images.example.com/genetics-ethics.jpg"
-},
-{
-"id": 115,
-"title": "Kotlin for Android",
-"author": "Dave Smith",
-"description": "Build high-performance mobile applications using the Kotlin programming language.",
-"category": "Tech",
-"available_quantity": 19,
-"image_url": "https://images.example.com/kotlin-android.jpg"
-},
-{
-"id": 116,
-"title": "Beneath the Ocean Floor",
-"author": "James Cameron",
-"description": "The science of deep-sea exploration and the biological wonders of the Mariana Trench.",
-"category": "Science",
-"available_quantity": 6,
-"image_url": "https://images.example.com/ocean-floor.jpg"
-}
+    {
+        "id": 101,
+        "title": "The Whispering Woods",
+        "author": "Elena Vance",
+        "description": "An enchanting collection of folklore about a forest that remembers every secret ever told.",
+        "category": "Story",
+        "available_quantity": 12,
+        "image_url": "https://images.example.com/whispering-woods.jpg"
+    },
+    {
+        "id": 102,
+        "title": "Quantum Mechanics for Beginners",
+        "author": "Dr. Aris Thorne",
+        "description": "A comprehensive guide breaking down complex subatomic theories into understandable concepts.",
+        "category": "Science",
+        "available_quantity": 8,
+        "image_url": "https://images.example.com/quantum-mechanics.jpg"
+    },
+    {
+        "id": 103,
+        "title": "Mastering React 19",
+        "author": "Sarah Jenkins",
+        "description": "The ultimate resource for building modern web applications with the latest React features.",
+        "category": "Tech",
+        "available_quantity": 25,
+        "image_url": "https://images.example.com/mastering-react.jpg"
+    },
+    {
+        "id": 104,
+        "title": "The Midnight Train",
+        "author": "Julian Black",
+        "description": "A mystery thriller set on a locomotive traveling through the Swiss Alps in winter.",
+        "category": "Story",
+        "available_quantity": 15,
+        "image_url": "https://images.example.com/midnight-train.jpg"
+    },
+    {
+        "id": 105,
+        "title": "Evolutionary Biology",
+        "author": "Dr. Linda Gray",
+        "description": "Exploring the genetic markers that shaped life on Earth over billions of years.",
+        "category": "Science",
+        "available_quantity": 5,
+        "image_url": "https://images.example.com/evolutionary-biology.jpg"
+    },
+    {
+        "id": 106,
+        "title": "Cybersecurity Essentials",
+        "author": "Marcus Reed",
+        "description": "Protecting digital assets in an increasingly connected and vulnerable global landscape.",
+        "category": "Tech",
+        "available_quantity": 30,
+        "image_url": "https://images.example.com/cybersecurity-essentials.jpg"
+    },
+    {
+        "id": 107,
+        "title": "Tales of the Silk Road",
+        "author": "Amina Khatri",
+        "description": "Historical fiction following a merchant's journey from China to the Mediterranean.",
+        "category": "Story",
+        "available_quantity": 10,
+        "image_url": "https://images.example.com/silk-road.jpg"
+    },
+    {
+        "id": 108,
+        "title": "The Mars Mission",
+        "author": "Neil Armstrong Jr.",
+        "description": "A detailed scientific roadmap for establishing the first human colony on the Red Planet.",
+        "category": "Science",
+        "available_quantity": 18,
+        "image_url": "https://images.example.com/mars-mission.jpg"
+    },
+    {
+        "id": 109,
+        "title": "Blockchain Revolution",
+        "author": "Satoshi Nakamoto II",
+        "description": "How decentralized ledgers are changing finance, logistics, and digital identity.",
+        "category": "Tech",
+        "available_quantity": 22,
+        "image_url": "https://images.example.com/blockchain-revolution.jpg"
+    },
+    {
+        "id": 110,
+        "title": "Ghosts of the Empire",
+        "author": "Robert Hughes",
+        "description": "A haunting story about the fall of a mighty civilization and the survivors left behind.",
+        "category": "Story",
+        "available_quantity": 7,
+        "image_url": "https://images.example.com/ghosts-empire.jpg"
+    },
+    {
+        "id": 111,
+        "title": "Neural Networks Explained",
+        "author": "Fei-Fei Li",
+        "description": "Deep dive into the architecture of artificial brains and machine learning algorithms.",
+        "category": "Tech",
+        "available_quantity": 14,
+        "image_url": "https://images.example.com/neural-networks.jpg"
+    },
+    {
+        "id": 112,
+        "title": "Climate Change Data",
+        "author": "Greta Thunberg",
+        "description": "An analysis of global temperature shifts and the science behind renewable energy.",
+        "category": "Science",
+        "available_quantity": 40,
+        "image_url": "https://images.example.com/climate-change.jpg"
+    },
+    {
+        "id": 113,
+        "title": "The Alchemist's Daughter",
+        "author": "Clara Rossi",
+        "description": "A young woman discovers her father's secret laboratory and a magical ancient legacy.",
+        "category": "Story",
+        "available_quantity": 9,
+        "image_url": "https://images.example.com/alchemist-daughter.jpg"
+    },
+    {
+        "id": 114,
+        "title": "Genetics and Ethics",
+        "author": "Professor Xavier",
+        "description": "Discussing the scientific breakthroughs in CRISPR and the moral dilemmas of gene editing.",
+        "category": "Science",
+        "available_quantity": 11,
+        "image_url": "https://images.example.com/genetics-ethics.jpg"
+    },
+    {
+        "id": 115,
+        "title": "Kotlin for Android",
+        "author": "Dave Smith",
+        "description": "Build high-performance mobile applications using the Kotlin programming language.",
+        "category": "Tech",
+        "available_quantity": 19,
+        "image_url": "https://images.example.com/kotlin-android.jpg"
+    },
+    {
+        "id": 116,
+        "title": "Beneath the Ocean Floor",
+        "author": "James Cameron",
+        "description": "The science of deep-sea exploration and the biological wonders of the Mariana Trench.",
+        "category": "Science",
+        "available_quantity": 6,
+        "image_url": "https://images.example.com/ocean-floor.jpg"
+    }
 ]
