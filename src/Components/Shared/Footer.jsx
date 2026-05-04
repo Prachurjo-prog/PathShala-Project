@@ -1,18 +1,15 @@
 import Link from "next/link";
 import { FiGithub } from "react-icons/fi";
-import { FaInstagram  } from "react-icons/fa";
-import { CiMail , CiTwitter} from "react-icons/ci";
+import { FaInstagram } from "react-icons/fa";
+import { CiMail, CiTwitter } from "react-icons/ci";
 import Image from "next/image";
-import logo from "@/assets/logo-rem.png"
-
+import logo from "@/assets/logo-rem.png";
 
 export default function Footer() {
   return (
-    <footer className=" bg-[#F9FAFA] mt-11">
-      <hr className="text-gray-200"/>
-      <div className="mx-auto grid container gap-8  py-12 md:grid-cols-3">
-        
-       
+    <footer className=" bg-[#F9FAFA] pt-11">
+      <hr className="text-gray-200" />
+      <div className="mx-auto grid container gap-8 py-12 md:grid-cols-3">
         <div>
           <Link href="/" className="flex items-center gap-2">
             <Image src={logo} alt="logo" className="w-45 h-9 "/>
@@ -22,7 +19,6 @@ export default function Footer() {
           </p>
         </div>
 
-       
         <div>
           <h4 className=" font-medium">Contact Us</h4>
           <ul className="mt-3 space-y-2 ">
@@ -34,11 +30,10 @@ export default function Footer() {
           </ul>
         </div>
 
-        
         <div>
           <h4 className=" font-medium">Follow</h4>
           <div className="mt-3 flex gap-3">
-            {[CiTwitter , FaInstagram , FiGithub ].map((Icon, i) => (
+            {[CiTwitter, FaInstagram, FiGithub].map((Icon, i) => (
               <a
                 key={i}
                 href="#"
@@ -51,8 +46,7 @@ export default function Footer() {
         </div>
       </div>
 
-     
-      <hr className="text-gray-200"/>
+      <hr className="text-gray-200" />
       <div className=" py-4 text-center">
         © {new Date().getFullYear()} PathShala Library. All rights reserved.
       </div>

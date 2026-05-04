@@ -1,18 +1,33 @@
 'use client'
 
+import { authClient } from "@/lib/auth-client";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { useForm } from "react-hook-form";
 import { IoLogoGoogle } from "react-icons/io";
 
-const page = () => {
-  const {register,formState: { errors }, handleSubmit} = useForm();
+const LoginPage = () => {
+  const {
+      register,
+      formState: { errors },
+      handleSubmit,
+    } = useForm();
+  
+    const handleLogin = async(data) => {
+      console.log(data);
+      const { email, password } = data;
+  
+      const {user, error} = await authClient.signIn.email({
+        
+      email: email,
+      password: password, 
+      callbackURL: "/",
+      });
+      console.log(user, error)
+    };
 
-  const handleLogin = (data) =>{
-    console.log(data)
-  }
-
+  console.log(errors)
   return (
     <div className="min-h-[80vh] flex items-center bg-[#F9FAFA] justify-center mt-15">
       <div className="w-full max-w-md p-8 bg-white rounded-lg shadow">
@@ -30,6 +45,7 @@ const page = () => {
               placeholder="Email"
               className="w-full shadow border border-gray-100 rounded-xl px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-200"
             />
+           { errors.email && <p className="text-red-500 text-sm">Email is required</p> }
           </div>
           <div>
             <h3 className="pb-1 font-bold">Password</h3>
@@ -39,6 +55,7 @@ const page = () => {
               placeholder="password"
               className="w-full shadow border border-gray-100 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-200"
             />
+             { errors.password && <p className="text-red-500 text-sm">Password is required</p> }
           </div>
           <button className="btn w-full text-white bg-[#10131A] rounded-xl">
             Login
@@ -70,4 +87,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default LoginPage;
