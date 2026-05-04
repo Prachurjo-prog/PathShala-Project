@@ -22,6 +22,7 @@ const LoginPage = () => {
         
       email: email,
       password: password, 
+      rememberMe: true,
       callbackURL: "/",
       });
       console.log(user, error)
