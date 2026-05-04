@@ -7,14 +7,15 @@ import { useForm } from "react-hook-form";
 import { IoLogoGoogle } from "react-icons/io";
 
 const page = () => {
-  const {register,formState: { errors }, handleSubmit} = useForm();
 
-  const handleLogin = (data) =>{
-    console.log(data)
-  }
+    const {register,formState: { errors }, handleSubmit} = useForm();
+    
+      const handleLogin = (data) =>{
+        console.log(data)
+      }
 
-  return (
-    <div className="min-h-[80vh] flex items-center bg-[#F9FAFA] justify-center mt-15">
+    return (
+        <div className="min-h-[80vh] flex items-center bg-[#F9FAFA] justify-center mt-15">
       <div className="w-full max-w-md p-8 bg-white rounded-lg shadow">
         <h2 className="text-3xl font-bold text-gray-800 mb-2">Welcome Back</h2>
         <p className="text-gray-500 mb-6">
@@ -22,12 +23,30 @@ const page = () => {
         </p>
 
         <form onSubmit={handleSubmit(handleLogin)} className="space-y-4">
+            <div>
+            <h3 className="pb-1 font-bold">Name</h3>
+            <input
+            {...register("name", { required: true })}
+              type="text"
+              placeholder="Name"
+              className="w-full shadow border border-gray-100 rounded-xl px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-200"
+            />
+          </div>
           <div>
             <h3 className="pb-1 font-bold">Email</h3>
             <input
             {...register("email", { required: true })}
               type="email"
               placeholder="Email"
+              className="w-full shadow border border-gray-100 rounded-xl px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-200"
+            />
+          </div>
+           <div>
+            <h3 className="pb-1 font-bold">Photo URL</h3>
+            <input
+            {...register("photoUrl", { required: true })}
+              type="text"
+              placeholder="https://..."
               className="w-full shadow border border-gray-100 rounded-xl px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-200"
             />
           </div>
@@ -41,7 +60,7 @@ const page = () => {
             />
           </div>
           <button className="btn w-full text-white bg-[#10131A] rounded-xl">
-            Login
+            Register
           </button>
 
           <div>
@@ -59,15 +78,15 @@ const page = () => {
           </button>
 
           <span className="text-center gap-2 justify-center flex">
-            New here?{" "}
-            <Link href="/register" className="font-bold hover:underline">
-              Create an account
+            Already have an account?{" "}
+            <Link href="/login" className="font-bold hover:underline">
+              Login 
             </Link>
           </span>
         </form>
       </div>
     </div>
-  );
+    );
 };
 
 export default page;
