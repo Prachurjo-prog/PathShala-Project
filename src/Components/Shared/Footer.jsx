@@ -7,7 +7,7 @@ import logo from "@/assets/logo-rem.png";
 
 export default function Footer() {
   return (
-    <footer className=" bg-[#F9FAFA] pt-11">
+    <footer className=" bg-[#F9FAFA] mt-11 ">
       <hr className="text-gray-200" />
       <div className="mx-auto grid container gap-8 py-12 md:grid-cols-3">
         <div>
